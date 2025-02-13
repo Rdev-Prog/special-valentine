@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Danfo&family=Love+Ya+Like+A+Sister&family=Loved+by+the+King&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <section class="nav-bar">
+            <div class="navbar-wrapper">
+                <div class="logo">
+                    <h1>For Shin</h1>
+                </div>
+
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#songs">Songs</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#letter">Letter</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="songs" class="feature-section">
+            <h1>Songs</h1>
+        </section>
+
+        <div class="player">
+            <img id="cover" class="cover" src="1.jpg" alt="Song Cover">
+            <div class="song-info">
+                <h3 id="songTitle">Glue Song</h3>
+            </div>
+            <select id="songSelector" onchange="changeSong()">
+                <option value="glue_song.mp3" data-cover="1.jpg" data-title="Glue Song">Glue Song</option>
+                <option value="Patutunguhan.mp3" data-cover="23.jpg" data-title="Patutunguhan">Patutunguhan</option>
+                <option value="Bawat_Piyesa.mp3" data-cover="11.jpg" data-title="Bawat Piyesa">Bawat Piyesa</option>
+            </select>
+            <audio id="audio">
+                <source id="audioSource" src="glue_song.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="controls">
+                <button onclick="audio.play()">▶</button>
+                <button onclick="audio.pause()">⏸</button>
+                <button onclick="audio.currentTime = 0">⏹</button>
+            </div>
+        </div>
+
+        <section id="home" class="dedication">
+            <p>A web-site dedicated to </p>
+            <p>my smiles</p>
+            <p>my happiness</p>
+            <p>my strength</p>
+            <p>my hope</p>
+            <p><span>the love of my life</span></p>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h1>Gallery</h1>
+        </section>
+
+        <section class="gallery-container">
+            <div class="gallery-wrapper">
+                <img src="DSC04532 (3) (1) (1).jpg" alt="">
+                <img src="DSC04518 (1) (1).jpg" alt="">
+                <img src="DSC04522 (1) (1).jpg" alt="">
+                <img src="DSC04525 (1) (1).jpg" alt="">
+                <img src="DSC04526 (1) (3).jpg" alt="">
+            </div>
+        </section>
+
+        <section class="photo-collection">
+            <div class="img-wrapper">
+                <img src="1.jpg" alt="">
+                <h1>First gala together</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="2.jpeg" alt="">
+                <h1>First date as suitor</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="3.jpeg" alt="">
+                <h1>Swimming</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="4.jpg" alt="">
+                <h1>First picture back together</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="5.jpg" alt="">
+                <h1>My fave classmate hehe</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="6.jpg" alt="">
+                <h1>Helluu</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="7.jpeg" alt="">
+                <h1>So much fun</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="8.jpg" alt="">
+                <h1>First date as bf and gf</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="9.jpg" alt="">
+                <h1>My litol shin</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="10.jpg" alt="">
+                <h1>hehe nakiss aku</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="11.jpg" alt="">
+                <h1>First photobooth</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="12.jpg" alt="">
+                <h1>Second photobooth</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="13.jpg" alt="">
+                <h1>hehe</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="14.jpg" alt="">
+                <h1>Kapelandia</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="15.jpg" alt="">
+                <h1>Say cheeeeese</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="16.jpg" alt="">
+                <h1>Paniss</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="17.jpg" alt="">
+                <h1>With Honors</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="18.jpg" alt="">
+                <h1>Last gala as shs students</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="19.jpg" alt="">
+                <h1>First kiss as college students</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="20.jpg" alt="">
+                <h1>Hi cutie</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="21.jpg" alt="">
+                <h1>Smileeee</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="22.jpg" alt="">
+                <h1>Cutie cutie</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="23.jpg" alt="">
+                <h1>I love you, always</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="24.jpg" alt="">
+                <h1>2025 with you</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="25.jpg" alt="">
+                <h1>Heart heart</h1>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="26.jpg" alt="">
+                <h1>mwa mwa</h1>
+            </div>
+        </section>
+
+        <section id="letter" class="feature-section">
+            <h1>Letter</h1>
+        </section>
+
+        <section class="letter-wrapper">
+            <img src="Black & White Simple Cute Photo Frame Valentine Love Letter_20250213_093029_0000.png" alt="">
+        </section>
+
+        <section class="footer">
+            <div class="footer-wrapper">
+                <h1>-baby love mo</h1>
+            </div>
+        </section>
+
+        <script>
+            var audio = document.getElementById('audio');
+            var audioSource = document.getElementById('audioSource');
+            var cover = document.getElementById('cover');
+            var songTitle = document.getElementById('songTitle');
+            var selector = document.getElementById('songSelector');
+    
+            function changeSong() {
+                var selectedOption = selector.options[selector.selectedIndex];
+                audioSource.src = selectedOption.value;
+                cover.src = selectedOption.getAttribute('data-cover');
+                songTitle.textContent = selectedOption.getAttribute('data-title');
+                audio.load();
+                audio.play();
+            }
+        </script>
+
+    </body>
+</html>
